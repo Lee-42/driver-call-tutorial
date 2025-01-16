@@ -22,6 +22,10 @@ int add(int a, int b) {
 ```
 
 我们将这个文件编译为一个共享库（.so 或 .dll 文件）。 myLibrary.c
+window
+```shell
+gcc 
+```
 
 2、在 Node.js 中使用 ffi-napi 调用 C 函数
 
